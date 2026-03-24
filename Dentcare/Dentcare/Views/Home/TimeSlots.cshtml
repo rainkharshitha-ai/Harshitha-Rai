@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "Time Slots";
+}
+
+<div class="max-w-4xl mx-auto p-6">
+
+    <h1 class="text-2xl font-bold mb-6">Select a Time Slot</h1>
+
+    <div class="border p-4 rounded mb-6 flex items-center gap-4">
+
+        <img src="/Images/dentist1.jpg" class="w-14 h-14 rounded-full">
+
+        <div>
+            <h2 class="font-semibold">Dr. Umesh Pai</h2>
+            <p class="text-gray-500 text-sm">Dentocare Dental Clinic</p>
+        </div>
+
+    </div>
+
+    <h2 class="text-lg font-semibold mb-3">Select a date</h2>
+
+    @if (ViewBag.SelectedDate != null)
+    {
+        <h4 class="text-green-600 mb-4">
+            Selected Date: @ViewBag.SelectedDate
+        </h4>
+    }
+
+    <div class="flex gap-4 mb-6">
+
+        <a href="/Home/TimeSlots?date=Today" class="border px-4 py-2 rounded bg-blue-100">Today</a>
+        <a href="/Home/TimeSlots?date=Tomorrow" class="border px-4 py-2 rounded">Tomorrow</a>
+        <a href="/Home/TimeSlots?date=Tue" class="border px-4 py-2 rounded">Tue</a>
+        <a href="/Home/TimeSlots?date=Wed" class="border px-4 py-2 rounded">Wed</a>
+        <a href="/Home/TimeSlots?date=Thu" class="border px-4 py-2 rounded">Thu</a>
+        <a href="/Home/TimeSlots?date=Fri" class="border px-4 py-2 rounded">Fri</a>
+
+    </div>
+
+    <form method="post" action="/Home/BookAppointment">
+
+        <input type="hidden" name="date" value="@ViewBag.SelectedDate" />
+
+        <input type="hidden" id="selectedTime" name="time" />
+
+        <h3 class="font-semibold mb-3">Morning</h3>
+
+        <div class="flex flex-wrap gap-3 mb-6">
+
+            <button type="button" onclick="setTime('10:30 AM')" class="bg-blue-500 text-white px-4 py-2 rounded">10:30 AM</button>
+
+            <button type="button" onclick="setTime('10:50 AM')" class="bg-blue-500 text-white px-4 py-2 rounded">10:50 AM</button>
+
+            <button type="button" onclick="setTime('11:10 AM')" class="bg-blue-500 text-white px-4 py-2 rounded">11:10 AM</button>
+
+            <button type="button" onclick="setTime('11:30 AM')" class="bg-blue-500 text-white px-4 py-2 rounded">11:30 AM</button>
+
+        </div>
+
+        <h3 class="font-semibold mb-3">Afternoon</h3>
+
+        <div class="flex flex-wrap gap-3 mb-6">
+
+            <button type="button" onclick="setTime('12:10 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">12:10 PM</button>
+
+            <button type="button" onclick="setTime('12:30 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">12:30 PM</button>
+
+            <button type="button" onclick="setTime('12:50 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">12:50 PM</button>
+
+        </div>
+
+        <h3 class="font-semibold mb-3">Evening</h3>
+
+        <div class="flex flex-wrap gap-3 mb-6">
+
+            <button type="button" onclick="setTime('06:50 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">06:50 PM</button>
+
+            <button type="button" onclick="setTime('07:10 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">07:10 PM</button>
+
+            <button type="button" onclick="setTime('07:30 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">07:30 PM</button>
+
+            <button type="button" onclick="setTime('07:50 PM')" class="bg-blue-500 text-white px-4 py-2 rounded">07:50 PM</button>
+
+        </div>
+
+        <div class="mt-6">
+
+            <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded">
+                Confirm Appointment
+            </button>
+
+        </div>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="bg-green-200 text-green-800 p-4 mt-4 rounded">
+            @ViewBag.Message
+        </div>
+    }
+
+</div>
+
+<script>
+
+    function setTime(time)
+    {
+    document.getElementById("selectedTime").value = time;
+    alert("Selected Time: " + time);
+    }
+
+</script>

@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\.Net Programs\\DentoWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\migrations\\20260316155208_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\migrations\\20260316155208_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|e:\\.net programs\\dentoweb\\dentoweb\\dentoweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B86595B7-AD60-A20B-3052-155C09BAE4E0}|DentoWeb\\DentoWeb.csproj|solutionrelative:dentoweb\\dentoweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Controllers\\PatientController.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "DentoWeb\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:53:35.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Controllers\\AppointmentController.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "DentoWeb\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:48:44.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DentoWeb\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:24:24.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Models\\Appointment.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Models\\Appointment.cs",
+              "RelativeToolTip": "DentoWeb\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:19:17.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Models\\Patient.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Models\\Patient.cs",
+              "RelativeToolTip": "DentoWeb\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:17:39.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "DentoWeb\\appsettings.json",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\appsettings.json",
+              "RelativeToolTip": "DentoWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T15:21:14.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Program.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Program.cs",
+              "RelativeToolTip": "DentoWeb\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:38:08.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DentoWeb.csproj",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\DentoWeb.csproj",
+              "RelativeDocumentMoniker": "DentoWeb\\DentoWeb.csproj",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\DentoWeb.csproj",
+              "RelativeToolTip": "DentoWeb\\DentoWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T15:23:47.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260316155208_InitialCreate.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Migrations\\20260316155208_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DentoWeb\\Migrations\\20260316155208_InitialCreate.cs",
+              "ToolTip": "E:\\.Net Programs\\DentoWeb\\DentoWeb\\Migrations\\20260316155208_InitialCreate.cs",
+              "RelativeToolTip": "DentoWeb\\Migrations\\20260316155208_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:52:08.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

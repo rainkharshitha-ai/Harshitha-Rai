@@ -1,0 +1,22 @@
+﻿@model List<Dentcare.Models.Patient>
+
+<h2>Patients</h2>
+
+<table border="1">
+
+    <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Email</td>
+            <td>@p.Password</td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DentCare</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- HEADER -->
+    <nav class="bg-blue-500 text-white">
+
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center p-4">
+
+            <!-- Logo + Title -->
+            <div class="flex items-center space-x-3">
+                <img src="/Images/logo.png" class="h-14">
+                <h1 class="text-lg md:text-xl font-bold">
+                    Dentocare Dental Care Clinic
+                </h1>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button onclick="toggleMenu()" class="md:hidden text-3xl">
+                ☰
+            </button>
+
+            <!-- Navigation Links -->
+            <div id="menu" class="hidden w-full md:flex md:w-auto md:space-x-6 mt-4 md:mt-0 font-medium">
+
+                <a href="/" class="block py-2 md:py-0 hover:underline">Home</a>
+                <a href="/Home/About" class="block py-2 md:py-0 hover:underline">About</a>
+                <a href="/Home/Treatments" class="block py-2 md:py-0 hover:underline">Treatments</a>
+                <a href="/Home/Appointment" class="block py-2 md:py-0 hover:underline">Appointment</a>
+                <a href="/Home/Contact" class="block py-2 md:py-0 hover:underline">Contact</a>
+                <a href="/Home/Signup" class="block py-2 md:py-0 hover:underline">Signup</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- PAGE CONTENT -->
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-500 text-white text-center mt-10 p-6">
+
+        <h3 class="text-lg mb-4">Follow Us</h3>
+
+        <div class="space-x-6 text-2xl">
+
+            <a href="https://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+        <p class="mt-4 text-sm">
+            © 2026 Dentocare Dental Care Clinic
+        </p>
+
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>

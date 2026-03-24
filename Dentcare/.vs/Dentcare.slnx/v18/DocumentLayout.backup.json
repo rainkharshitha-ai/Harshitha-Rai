@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\.Net Programs\\Dentcare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.Net Programs\\Dentcare\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\treatments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\treatments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\patients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\patients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\callclinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\callclinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\timeslots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\timeslots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|e:\\.net programs\\dentcare\\dentcare\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{618B0F80-3B98-F16B-A323-D052E6ABB741}|Dentcare\\Dentcare.csproj|solutionrelative:dentcare\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\Signup.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Signup.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\Signup.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:28:14.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Treatments.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Treatments.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\Treatments.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Treatments.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\Treatments.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:27:39.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Dentcare\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Dentcare\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAmwKEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-13T17:35:10.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Program.cs",
+              "RelativeDocumentMoniker": "Dentcare\\Program.cs",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Program.cs",
+              "RelativeToolTip": "Dentcare\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T02:04:57.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-16T01:57:04.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Dentcare\\Models\\Patient.cs",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Models\\Patient.cs",
+              "RelativeToolTip": "Dentcare\\Models\\Patient.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA2wAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T00:27:15.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:24:47.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dentcare\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dentcare\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T09:22:45.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patients.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Patients.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Patients.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Patients.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Patients.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T02:07:53.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Dentcare\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Dentcare\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T02:40:23.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\appsettings.json",
+              "RelativeDocumentMoniker": "Dentcare\\appsettings.json",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\appsettings.json",
+              "RelativeToolTip": "Dentcare\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T01:57:37.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Dentcare\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Dentcare\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T00:28:29.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:25:46.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Appointment.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Appointment.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\Appointment.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Appointment.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\Appointment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:26:57.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T14:13:49.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CallClinic.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\CallClinic.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\CallClinic.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\CallClinic.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\CallClinic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T16:30:38.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TimeSlots.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\TimeSlots.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\TimeSlots.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\TimeSlots.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\TimeSlots.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv30AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T16:56:34.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dentcare\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\.Net Programs\\Dentcare\\Dentcare\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Dentcare\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T09:17:15.337Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
