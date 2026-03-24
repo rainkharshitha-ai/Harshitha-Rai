@@ -1,0 +1,22 @@
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.deps.json
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.pdb
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.AssemblyInfoInputs.cache
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.AssemblyInfo.cs
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.csproj.CoreCompileInputs.cache
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\refint\LoanAdvisor.Domain.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.pdb
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\ref\LoanAdvisor.Domain.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.deps.json
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\bin\Debug\net10.0\LoanAdvisor.Domain.pdb
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.AssemblyInfoInputs.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.AssemblyInfo.cs
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.csproj.CoreCompileInputs.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\refint\LoanAdvisor.Domain.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\LoanAdvisor.Domain.pdb
+D:\LoanAdvisorAPI\LoanAdvisor.Domain\obj\Debug\net10.0\ref\LoanAdvisor.Domain.dll

@@ -1,0 +1,34 @@
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.deps.json
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.pdb
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.AssemblyInfoInputs.cache
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.AssemblyInfo.cs
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.csproj.CoreCompileInputs.cache
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\refint\LoanAdvisor.Infrastructure.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.pdb
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\ref\LoanAdvisor.Infrastructure.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.runtimeconfig.json
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Domain.dll
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Domain.pdb
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.csproj.AssemblyReference.cache
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvi.7EABEE86.Up2Date
+E:\.Net Programs\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.genruntimeconfig.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.deps.json
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.runtimeconfig.json
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Infrastructure.pdb
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Domain.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\bin\Debug\net10.0\LoanAdvisor.Domain.pdb
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.csproj.AssemblyReference.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.AssemblyInfoInputs.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.AssemblyInfo.cs
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.csproj.CoreCompileInputs.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvi.7EABEE86.Up2Date
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\refint\LoanAdvisor.Infrastructure.dll
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.pdb
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\LoanAdvisor.Infrastructure.genruntimeconfig.cache
+D:\LoanAdvisorAPI\LoanAdvisor.Infrastructure\obj\Debug\net10.0\ref\LoanAdvisor.Infrastructure.dll
