@@ -1,33 +1,39 @@
-﻿using LoanAdvisor.Domain.Entities;
-using LoanAdvisor.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+﻿    using LoanAdvisor.Domain.Entities;
+    using LoanAdvisor.Infrastructure.Data;
+    using Microsoft.EntityFrameworkCore;
 
-namespace LoanAdvisor.Infrastructure.Repositories;
+    namespace LoanAdvisor.Infrastructure.Repositories;
 
-public class LoanRepository
-{
-    private readonly ApplicationDbContext _context;
-
-    public LoanRepository(ApplicationDbContext context)
+    public class LoanRepository
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public async Task AddAsync(LoanApplication loan)
-    {
-        await _context.LoanApplications.AddAsync(loan);
-        await _context.SaveChangesAsync();
-    }
+        public LoanRepository(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task AddAsync(LoanApplication loan)
+        {
+            await _context.LoanApplications.AddAsync(loan);
+            await _context.SaveChangesAsync();
+        }
 
    
-    public async Task<List<LoanApplication>> GetAllAsync()
-    {
-        return await _context.LoanApplications.ToListAsync();
-    }
+        public async Task<List<LoanApplication>> GetAllAsync()
+        {
+            return await _context.LoanApplications.ToListAsync();
+        }
 
     
-    public async Task<int> GetTotalApplications()
-    {
-        return await _context.LoanApplications.CountAsync();
+        public async Task<int> GetTotalApplications()
+        {
+            return await _context.LoanApplications.CountAsync();
+        }
+
+        public async Task<double> GetAverageLoanAmount()
+        {
+            return await _context.LoanApplications
+                                 .AverageAsync(x => x.LoanAmount);
+        }
     }
-}

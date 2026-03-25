@@ -5,56 +5,82 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-[ApiController]
-[Route("api/[controller]")]
-public class AuthController : ControllerBase
+namespace LoanAdvisor.API.Controllers
 {
-    private readonly IConfiguration _config;
-
-    public AuthController(IConfiguration config)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
     {
-        _config = config;
-    }
+        private readonly IConfiguration _config;
 
-    [HttpPost("login")]
-    public IActionResult Login(LoginDto login)
-    {
-        // Dummy user check
-        if (login.Username == "admin" && login.Password == "1234")
+        public AuthController(IConfiguration config)
         {
-            var token = GenerateToken(login.Username);
-            return Ok(new { token });
+            _config = config;
         }
 
-        return Unauthorized();
-    }
-
-    private string GenerateToken(string username)
-    {
-        var jwtSettings = _config.GetSection("Jwt");
-
-        var keyString = jwtSettings["Key"];
-        if (string.IsNullOrEmpty(keyString))
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginDto login)
         {
-            throw new Exception("JWT Key is missing in appsettings.json");
+            // ✅ Validation
+            if (login == null ||
+                string.IsNullOrWhiteSpace(login.Username) ||
+                string.IsNullOrWhiteSpace(login.Password))
+            {
+                return BadRequest(new { message = "Username and Password are required" });
+            }
+
+            // ✅ Dummy check
+            if (login.Username == "admin" && login.Password == "1234")
+            {
+                var token = GenerateToken(login.Username);
+
+                return Ok(new
+                {
+                    message = "Login successful",
+                    token = token
+                });
+            }
+
+            return Unauthorized(new
+            {
+                message = "Invalid username or password"
+            });
         }
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyString));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-        var claims = new[]
+        private string GenerateToken(string username)
         {
-        new Claim(ClaimTypes.Name, username)
-    };
+            var jwtSettings = _config.GetSection("Jwt");
 
-        var token = new JwtSecurityToken(
-            issuer: jwtSettings["Issuer"],
-            audience: jwtSettings["Audience"],
-            claims: claims,
-            expires: DateTime.Now.AddMinutes(60),
-            signingCredentials: creds
-        );
+            // ✅ Safe null checks
+            var keyString = jwtSettings["Key"];
+            var issuer = jwtSettings["Issuer"];
+            var audience = jwtSettings["Audience"];
 
-        return new JwtSecurityTokenHandler().WriteToken(token);
+            if (string.IsNullOrWhiteSpace(keyString) ||
+                string.IsNullOrWhiteSpace(issuer) ||
+                string.IsNullOrWhiteSpace(audience))
+            {
+                throw new Exception("JWT settings are missing in appsettings.json");
+            }
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyString));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            // ✅ Claims
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Name, username)
+            };
+
+            var token = new JwtSecurityToken(
+                issuer: issuer,
+                audience: audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(60),
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
     }
 }

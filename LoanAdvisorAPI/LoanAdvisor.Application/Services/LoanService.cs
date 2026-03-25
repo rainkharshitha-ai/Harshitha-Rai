@@ -20,6 +20,16 @@ public class LoanService : ILoanService
     {
         var advice = await _aiService.GetLoanAdviceAsync(request);
 
+        int score = request.CreditScore;
+
+        string decision;
+        if (score > 750) decision = "Low Risk - Approved";
+        else if (score > 600) decision = "Medium Risk";
+        else decision = "High Risk - Reject";
+
+        double interestRate = score > 750 ? 7 :
+                              score > 600 ? 10 : 15;
+
         var entity = new LoanApplication
         {
             Name = request.Name,
@@ -27,21 +37,24 @@ public class LoanService : ILoanService
             CreditScore = request.CreditScore,
             LoanAmount = request.LoanAmount,
             AIResponse = advice,
-            CreatedDate = DateTime.UtcNow
+            Status = decision,
+            CreatedDate = DateTime.UtcNow,
+            InterestRate = interestRate
         };
 
         await _repo.AddAsync(entity);
 
         return new LoanResponseDto
         {
-            Message = advice
+            Message = advice,
+            Decision = decision,
+            InterestRate = interestRate
         };
     }
 
     public async Task<List<LoanApplication>> GetLoanHistoryAsync()
     {
-        var loans = await _repo.GetAllAsync();
-        return loans ?? new List<LoanApplication>(); // ✅ safety
+        return await _repo.GetAllAsync();
     }
 
     public async Task<int> GetTotalApplicationsAsync()
@@ -51,13 +64,13 @@ public class LoanService : ILoanService
 
     public async Task<DashboardDto> GetDashboardAsync()
     {
-        var loans = await _repo.GetAllAsync() ?? new List<LoanApplication>();
+        var loans = await _repo.GetAllAsync();
 
         return new DashboardDto
         {
             TotalLoans = loans.Count,
-            ApprovedLoans = loans.Count(l => l.Status == "Approved"),
-            RejectedLoans = loans.Count(l => l.Status == "Rejected"),
+            ApprovedLoans = loans.Count(l => l.Status.Contains("Approved")),
+            RejectedLoans = loans.Count(l => l.Status.Contains("Reject")),
             AverageInterestRate = loans.Count > 0
                 ? loans.Average(l => l.InterestRate)
                 : 0

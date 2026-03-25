@@ -30,4 +30,29 @@ public class LoanController : ControllerBase
         var data = await _loanService.GetDashboardAsync();
         return Ok(data);
     }
+
+    [HttpGet("history")]
+    public async Task<IActionResult> GetHistory()
+    {
+        var data = await _loanService.GetLoanHistoryAsync();
+        return Ok(data);
+    }
+
+    [HttpGet("total")]
+    public async Task<IActionResult> GetTotal()
+    {
+        var total = await _loanService.GetTotalApplicationsAsync();
+        return Ok(new { TotalApplications = total });
+    }
+
+    [HttpGet("emi")]
+    public IActionResult CalculateEMI(double amount, double rate, int months)
+    {
+        double r = rate / 12 / 100;
+
+        double emi = (amount * r * Math.Pow(1 + r, months)) /
+                     (Math.Pow(1 + r, months) - 1);
+
+        return Ok(new { EMI = Math.Round(emi, 2) });
+    }
 }

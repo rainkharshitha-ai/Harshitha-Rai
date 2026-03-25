@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "AuthController",
+    "ContainingType": "LoanAdvisor.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -35,6 +35,52 @@
     "ContainingType": "LoanAdvisor.API.Controllers.LoanController",
     "Method": "GetDashboard",
     "RelativePath": "api/Loan/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoanAdvisor.API.Controllers.LoanController",
+    "Method": "CalculateEMI",
+    "RelativePath": "api/Loan/emi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "rate",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "months",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoanAdvisor.API.Controllers.LoanController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Loan/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoanAdvisor.API.Controllers.LoanController",
+    "Method": "GetTotal",
+    "RelativePath": "api/Loan/total",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
